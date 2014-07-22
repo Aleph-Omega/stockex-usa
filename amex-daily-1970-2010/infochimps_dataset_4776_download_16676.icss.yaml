@@ -1,0 +1,142 @@
+---
+infochimps_schema:
+  title: Infochimps Simple Schema (ICSS)
+  version: 0.1
+  generated_at: Wed Feb 17 04:17:01 +0000 2010
+  url: "http://infochimps.org/payloads/16676.yaml"
+  description: >-
+    This is an Infochimps Simple Schema (ICSS).
+
+    It describes data on Infochimps.org and is meant to be both human
+    and machine readable.
+
+    An ICSS file is distributed with every download on Infochimps and
+    is also available by request to the above URL.
+    
+    ICSS files bundled with downloads are generated at the time the
+    download was created so they can become out of date as changes are
+    made to the data.  If this ICSS came with data you downloaded then
+    it is possible that it is already out of date.  You can get the
+    most recent version at the URL above.
+
+dataset:
+  id: 4776
+  title: Daily 1970-Current Open, Close, Hi, Low and Volume (AMEX exchange)
+  subtitle: ~
+  main_link: ~
+  url: "http://infochimps.org/datasets/daily-1970-current-open-close-hi-low-and-volume-amex-exchange"
+  created_at: "Fri Apr 04 13:42:12 UTC 2008"
+  updated_at: "Wed Feb 17 03:32:14 UTC 2010"  
+  tags: [ 500,adjusted,close,daily,finance,financial,high,low,market,money,nasdaq,nyse,open,poors,price,s&p,split,standard,stock,volume ]
+  categories: [ "Economics::Finance" ]
+  created_by:
+    id: 2  
+    username: Infochimps
+    name: Admin Ape
+    institution: Infochimps
+    main_link: "http://blog.infochimps.org"
+    url: "http://infochimps.org/users/infochimps"
+  description: >-
+    Daily Open, Close, Low, High and Volume.
+  sources:
+    
+    - id: 12641
+      title: Yahoo Finance
+      main_link: "http://ichart.finance.yahoo.com/table.csv?s=AAPL&a=00&b=1&c=1900&d=11&e=31&f=2030&g=v&ignore=.csv"
+      url: "http://infochimps.org/sources/yahoo-finance"
+      description: >-
+        Please add a description to this source.
+    
+    - id: 12642
+      title: NASDAQ site
+      main_link: "http://www.nasdaq.com/asp/symbols.asp?exchange=q"
+      url: "http://infochimps.org/sources/nasdaq-site"
+      description: >-
+        Please add a description to this source.
+    
+    - id: 12643
+      title: infochimp.org/flip
+      main_link: "http://infochimp.org/flip"
+      url: "http://infochimps.org/sources/infochimp-org-flip"
+      description: >-
+        Please add a description to this source.
+    
+  data:
+    id: 16676
+    title: Updated version (Feb. 2010)
+    number_of_records: ~
+    url: "http://infochimps.org/payloads/16676"
+    description: >-
+      
+    fields:
+      
+      - id: 193899
+        title: date
+        unit: ~
+        datatype: date
+        description: >-
+          
+      
+      - id: 193900
+        title: stock_symbol
+        unit: ~
+        datatype: string
+        description: >-
+          
+      
+      - id: 193901
+        title: stock_price_open
+        unit: ~
+        datatype: float
+        description: >-
+          
+      
+      - id: 193902
+        title: stock_price_close
+        unit: ~
+        datatype: float
+        description: >-
+          
+      
+      - id: 193903
+        title: stock_price_lo
+        unit: ~
+        datatype: float
+        description: >-
+          
+      
+      - id: 193904
+        title: stock_price_high
+        unit: ~
+        datatype: float
+        description: >-
+          
+      
+      - id: 193905
+        title: stock_price_adj_close
+        unit: ~
+        datatype: float
+        description: >-
+          
+      
+      - id: 193906
+        title: stock_volume
+        unit: 1000 shares / [day]
+        datatype: integer
+        description: >-
+          
+      
+      - id: 193907
+        title: stock_exchange
+        unit: ~
+        datatype: string
+        description: >-
+          
+      
+    license:
+      id: 
+      title: ~
+      main_link: ~
+      url: ~            
+      description: >-
+        
